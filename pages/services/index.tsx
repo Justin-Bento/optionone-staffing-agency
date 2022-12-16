@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-
+import ServiceCard from "../../components/ServiceCard";
 export default function index() {
   return (
     <>
@@ -22,42 +21,7 @@ export default function index() {
           </div>
         </section>
         <section className="flex flex-col gap-8">
-          <Link href="/services/1"className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
-          <Link href="/services/1"className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
-          <Link href="/services/1"className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
-          <Link href="/services/1" className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
-          <Link href="/services/1" className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
-          <Link href="/services/1" className="relative w-full h-64 transition-all rounded-lg bg-slate-200 hover:opacity-90">
-            <div className="absolute bottom-0 left-0 p-8">
-              <h2 className="text-xl font-bold capitalize"> Lorem ipsum dolor sit amet.</h2>
-              <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim.</p>
-            </div>
-          </Link>
+          <ServiceCard Image="https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" Path="1" Headline="Lorem ipsum dolor sit amet." Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum, quas nostrum placeat cupiditate sunt cum laudantium quod nulla enim." />
         </section>
       </main>
     </>

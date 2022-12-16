@@ -9,12 +9,12 @@ export interface Program {
 }
 
 
-export interface ServiceCard {
+export interface ServiceCardInterface {
   Headline: string,
-  Subhead: null,
   Supporting: string,
   Image: string,
-  Button: string 
+  Button: string,
+  Path: string  
 }
 export interface BlogCardInterface {
   Headline: string,

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-500">
+    <footer className="bg-black">
       <div className="px-6 py-12 mx-auto overflow-hidden max-w-7xl lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
           {navigation.main.map((item) => (
@@ -27,12 +27,12 @@ export default function Footer() {
 
 const navigation = {
   main: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Accessibility', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'FAQs', href: '/faqs' },
   ],
   social: [
     {

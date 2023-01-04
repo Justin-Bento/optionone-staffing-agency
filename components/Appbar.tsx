@@ -2,12 +2,14 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { HiMenu, HiX } from 'react-icons/hi';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
+  { name: 'Contact', href: '/contact' },
+  { name: 'FAQs', href: '/faqs' },
 ]
 
 export default function Appbar() {
@@ -15,12 +17,12 @@ export default function Appbar() {
   return (
     <>
       <div className="shadow">
-        <div className="p-4 md:p-6">
+        <div className="max-w-5xl p-4 mx-auto md:p-6">
           <nav className="flex items-center justify-between h-9" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                <Image className="h-8" src={"/next.svg"} alt="Option One Staffing Agency Logo" width={96} height={96} />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -64,7 +66,7 @@ export default function Appbar() {
                     <span className="sr-only">Your Company</span>
                     <img
                       className="h-8"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
                       alt=""
                     />
                   </a>

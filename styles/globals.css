@@ -2,6 +2,9 @@
 @tailwind components;
 
 @layer components {
+  .wrapper {
+    @apply max-w-5xl p-4 mx-auto md:p-6 lg:p-8;
+  }
   .type-display-large {
     @apply font-sans text-[3.563rem] capitalize font-semibold leading-10
   }
@@ -39,10 +42,10 @@
     @apply text-zinc-700 font-sans text-[0.688rem] font-medium
   }
   .type-body-large {
-    @apply text-zinc-700 font-sans text-[16px] font-normal
+    @apply text-zinc-700 font-sans text-[16px] font-normal leading-7
   }
   .type-body-medium {
-    @apply text-zinc-700 font-sans text-[14px] font-normal
+    @apply text-zinc-700 font-sans text-[14px] font-normal leading-7
   }
   .type-body-small {
     @apply text-zinc-700 font-sans text-[0.75rem] font-normal

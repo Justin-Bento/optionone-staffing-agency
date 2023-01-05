@@ -1,4 +1,4 @@
-import { sanityClient, urlFor } from "../../sanity";
+import { sanityClient } from "../../sanity";
 import Head from "next/head";
 import { HiChevronRight, HiHome } from "react-icons/hi";
 import Link from "next/link";

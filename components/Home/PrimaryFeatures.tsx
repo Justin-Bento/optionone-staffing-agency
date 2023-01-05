@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { HiScale } from "react-icons/hi"
 
 export default function PrimaryFeatures() {
   return (

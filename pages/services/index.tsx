@@ -3,9 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { sanityClient, urlFor } from "../../sanity";
 
-let programs = [
-  { _id: 1, headline: "Program 1 Name", supporting: "program description" },
-];
 export default function ServicesIndex({ programs }: any) {
   console.log(programs);
   return (
@@ -29,22 +26,11 @@ export default function ServicesIndex({ programs }: any) {
             <Link key={data._id} href={`/services/${data._id}`}>
               <article className="">
                 <div className="relative w-full h-64 bg-gray-200 rounded-xl">
-                  <Image
-                    src={urlFor(data.mainImage.asset.url).url()}
-                    alt=""
-                    className="object-cover h-full W-fit grayscale rounded-xl"
-                    width={960}
-                    height={500}
-                  />
+                  <Image src={urlFor(data.mainImage.asset.url).url()} alt="" className="object-cover h-full W-fit grayscale rounded-xl" width={960} height={500} />
                   <div className="absolute top-0 w-full h-full bg-blue-500 opacity-70 rounded-xl"></div>
-
                   <div className="absolute bottom-0 left-0 p-4 md:p-6 lg:p-8">
-                    <h2 className="type-title-medium text-blue-50">
-                      {data.title}
-                    </h2>
-                    <p className="type-body-medium text-blue-50">
-                      {data.description}
-                    </p>
+                    <h2 className="type-title-medium text-blue-50"> {data.title} </h2>
+                    <p className="type-body-medium text-blue-50"> {data.description} </p>
                   </div>
                 </div>
               </article>

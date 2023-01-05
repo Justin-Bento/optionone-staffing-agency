@@ -81,7 +81,7 @@ function Incentivess() {
                 <img className="w-12 h-12" src={incentive.imageSrc} alt="" />
               </div>
               <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                <h3 className="type-title-medium">{incentive.name}</h3>
+                <h2 className="type-title-medium">{incentive.name}</h2>
                 <p className="mt-2 type-body-small">{incentive.description}</p>
               </div>
             </div>

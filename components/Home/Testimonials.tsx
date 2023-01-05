@@ -35,10 +35,10 @@ export default function Testimonials() {
           />
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-2xl font-medium leading-9 text-center text-gray-900">
-              <p>
+              <h5>
                 &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente
                 alias molestiae. Numquam corrupti in laborum sed rerum et corporis.&rdquo;
-              </p>
+              </h5>
             </div>
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">

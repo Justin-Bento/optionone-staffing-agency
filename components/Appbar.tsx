@@ -20,10 +20,10 @@ export default function Appbar() {
         <div className="wrapper">
           <nav className="flex items-center justify-between h-9" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image className="h-8" src={"/next.svg"} alt="Option One Staffing Agency Logo" width={96} height={96} />
-              </a>
+              </Link>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -51,25 +51,21 @@ export default function Appbar() {
                 href="#"
                 className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
               >
-                Log in
+                Sign Up
               </a>
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <Dialog.Panel
               htmlFocus={true}
-              className="fixed inset-0 z-10 px-6 py-6 overflow-y-auto bg-white lg:hidden"
+              className="fixed inset-0 z-10 overflow-y-auto bg-white wrapper lg:hidden"
             >
-              <div className="flex items-center justify-between h-9">
+              <div className="flex items-center justify-between h-10">
                 <div className="flex">
-                  <a href="#" className="-m-1.5 p-1.5">
+                  <Link href="/" className="">
                     <span className="sr-only">Your Company</span>
-                    <img
-                      className="h-8"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
-                      alt=""
-                    />
-                  </a>
+                    <Image className="h-8" src={"/next.svg"} alt="Option One Staffing Agency Logo" width={96} height={96} />
+                  </Link>
                 </div>
                 <div className="flex">
                   <button

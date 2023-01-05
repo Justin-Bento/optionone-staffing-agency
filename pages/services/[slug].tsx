@@ -2,6 +2,7 @@ import { sanityClient, urlFor } from "../../sanity";
 import Head from "next/head";
 import { HiChevronRight, HiHome } from "react-icons/hi";
 import Link from "next/link";
+
 // Generates `/posts/1` and `/posts/2`
 export async function getStaticPaths() {
   const query = `*[_type == "post"]{_id, slug { current }}`;
@@ -38,23 +39,28 @@ export default function ServiceSlug({ programs }: any) {
         <title>Slug - Option One Staffing Agency</title>
       </Head>
       <main className="wrapper">
-        <div className="mt-8 space-y-4">
-          <div className="mb-2">
-            <Breadcrumbs NavLink="Getting Started Guide for Option One" />
-          </div>
-          <p className="tracking-wide text-blue-700 uppercase type-body-small">
+        <Breadcrumbs NavLink="Getting Started Guide for Option One" />
+        <div className="max-w-3xl mt-12">
+          <p className="mt-4 tracking-wide text-blue-700 uppercase type-body-small">
             Introduction
           </p>
-          <h1 className="type-headline-medium">
+          <h1 className="mt-2 type-headline-medium">
             Getting Started Guide for Option One!
           </h1>
-        </div>
-        <article className="type-body-large">
-          <p className="">
+          <p className="max-w-3xl my-2 type-body-large">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
             iure suscipit architecto, inventore placeat, ratione amet deleniti
             ullam error exercitationem qui nulla ea? Dolores, beatae.
-            Consequatur doloribus incidunt velit accusantium.
+            Consequatur.
+          </p>
+          <hr className="mt-8" />
+        </div>
+        <article className="max-w-3xl mt-16 type-body-large">
+          <p className="type-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repudiandae, nihil voluptas voluptatibus accusamus maxime ut sit
+            error cumque illo dicta ab quo eum, culpa nobis velit magni,
+            aspernatur modi vel!
           </p>
         </article>
       </main>

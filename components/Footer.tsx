@@ -1,15 +1,17 @@
+import Image from "next/image"
+
 const navigation = {
   solutions: [
     { name: 'Marketing', href: '#' },
     { name: 'Analytics', href: '#' },
     { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: 'FAQS', href: '#' },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+    { name: 'Hiring Managers', href: '#' },
+    { name: 'Job Seekers', href: '#' },
+    { name: 'Emmployers', href: '#' },
+    { name: 'Training', href: '#' },
   ],
   company: [
     { name: 'About', href: '#' },
@@ -70,13 +72,9 @@ export default function Footer() {
       <div className="px-6 py-12 mx-auto max-w-7xl lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <img
-              className="h-10"
-              src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300"
-              alt="Company name"
-            />
+            <Image className="h-8" src={"/next.svg"} alt="Option One Staffing Agency Logo" width={96} height={96} />
             <p className="text-base text-gray-500">
-              Making the world a better place through constructing elegant hierarchies.
+            Stay on top of your potential through personalized coaching sessions and industry data.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (

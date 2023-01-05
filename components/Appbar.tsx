@@ -17,7 +17,7 @@ export default function Appbar() {
   return (
     <>
       <div className="shadow">
-        <div className="max-w-5xl p-4 mx-auto md:p-6">
+        <div className="wrapper">
           <nav className="flex items-center justify-between h-9" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">

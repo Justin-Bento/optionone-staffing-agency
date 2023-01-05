@@ -144,7 +144,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-8 mt-12 border-t border-gray-200">
-          <p className="text-gray-400 type-body-large text-start md:text-center">&copy; {new Date().getFullYear()} Option One Staffing, Inc. All rights reserved.</p>
+          <p className="type-body-medium text-start md:text-center">&copy; {new Date().getFullYear()} Option One Staffing, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>

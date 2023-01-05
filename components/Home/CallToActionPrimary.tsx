@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function CallToActionPrimary() {
   return (
-    <div className="bg-blue-600">
+    <div className="bg-blue-700">
       <div className="py-24 wrapper">
         <div className="xl:flex xl:items-center">
           <div className="xl:w-0 xl:flex-1">
             <h3 className="type-headline-medium text-blue-50">
               Sign up to Grow and develop your potential!
             </h3>
-            <p className="max-w-xl text-blue-200 type-body-large">
+            <p className="max-w-xl text-blue-100 type-body-large">
               We make sure that you stay on top of your potential through our
               personalized coaching sessions, to help you move in the right
               direction.

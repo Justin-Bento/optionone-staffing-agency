@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const navigation = {
   solutions: [
@@ -69,11 +70,13 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-6 py-12 mx-auto max-w-7xl lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div className="wrapper">
+        <div className="xl:grid xl:grid-cols-3">
           <div className="space-y-8 xl:col-span-1">
-            <Image className="h-8" src={"/next.svg"} alt="Option One Staffing Agency Logo" width={96} height={96} />
-            <p className="text-base text-gray-500">
+            <Link href="/">
+              <Image src={"/brand/option-one-logo.png"} alt="Option One Staffing Agency Logo" width={86} height={86} />
+            </Link>
+            <p className="text-gray-500 type-body-large">
             Stay on top of your potential through personalized coaching sessions and industry data.
             </p>
             <div className="flex space-x-6">

@@ -9,10 +9,10 @@ export default function Hero() {
           <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             <span className="text-gray-600">
               View Listen To Our Success Stories.{" "}
-              <a href="#" className="font-semibold text-blue-600">
+              <Link href="/stories" className="font-semibold text-blue-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </span>
           </div>
         </div>
@@ -27,16 +27,16 @@ export default function Hero() {
         </p>
         <div className="flex flex-col justify-start gap-4 mt-8 md:flex-row md:justify-center">
           <Link
-            href="/services"
+            href="/signup"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           >
-            View Our Programs
+            Unlock Your Full Potential
           </Link>
           <Link
-            href="/blog"
+            href="/services"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           >
-            Check Out Our Staff
+            View Our Services
           </Link>
         </div>
         <Image

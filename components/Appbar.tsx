@@ -57,10 +57,7 @@ export default function Appbar() {
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-            <Dialog.Panel
-              htmlFocus={true}
-              className="fixed inset-0 z-10 overflow-y-auto bg-white wrapper lg:hidden"
-            >
+            <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white wrapper lg:hidden">
               <div className="flex items-center justify-between h-10">
                 <div className="flex">
                   <Link href="/" className="flex items-start">

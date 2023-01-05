@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { HiScale, HiOutlineKey } from "react-icons/hi"
 
@@ -14,10 +15,10 @@ export default function SecondaryFeatures() {
             </span>
             <Link href="/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Action 1</Link>
           </div>
-          <div className="bg-gray-200 h-[440px] rounded-l-xl">2</div>
+            <Image src="/media/backing-sora-shimazaki.jpg" width={650} height={440} alt="Backing Business Work" className="rounded-xl" />
         </article>
         <article className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16 lg:items-center">
-          <div className="bg-gray-200 h-[440px] rounded-l-xl">2</div>
+        <Image src="/media/succeed-anna-shvets.jpg" width={650} height={440} alt="Happy Dance After Task" className="rounded-xl" />
           <div className="">
             <span className="flex flex-col gap-4 mb-4">
               <HiOutlineKey size="2rem" />

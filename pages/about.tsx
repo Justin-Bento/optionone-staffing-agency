@@ -120,7 +120,7 @@ function About_Company_Who() {
         <h4 className="type-headline-medium">Who we are</h4>
         <p className="type-body-large">
           Option One is a practical staffing agency offering employment and
-          staffing services that fits today's needs. Option One was
+          staffing services that fits today&#39;s needs. Option One was
           established in October 2006, we take great pride in providing
           companies with the right and qualified staff. We are dedicated and
           devoted to providing you the best possible service.

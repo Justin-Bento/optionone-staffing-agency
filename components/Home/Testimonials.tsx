@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <section className="py-12 overflow-hidden md:py-20 lg:py-24">
@@ -28,7 +30,9 @@ export default function Testimonials() {
         </svg>
 
         <div className="relative">
-          <img
+          <Image
+            width={32}
+            height={32}
             className="h-8 mx-auto"
             src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
             alt="Workcation"
@@ -43,7 +47,9 @@ export default function Testimonials() {
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">
                 <div className="md:flex-shrink-0">
-                  <img
+                  <Image
+                    width={40}
+                    height={40}
                     className="w-10 h-10 mx-auto rounded-full"
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""

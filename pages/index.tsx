@@ -13,6 +13,8 @@ export default function Home() {
     <>
       <Head>
         <title>Option One Staffing Agency</title>
+        <meta name="title" content="Option One Staffing Agency" />
+        <meta name="description" content="We understand that potential can be realized through the right investments,  We believe in providing a platform for individuals with complex needs to pursue their dreams and reach their goals." />
       </Head>
       <main className="">
         <div className="pt-16 space-y-16">

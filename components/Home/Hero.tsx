@@ -78,7 +78,7 @@ function Incentivess() {
           {incentives.map((incentive) => (
             <div key={incentive.name} className="sm:flex lg:block">
               <div className="sm:flex-shrink-0">
-                <img className="w-12 h-12" src={incentive.imageSrc} alt="" />
+                <Image width={48} height={48} src={incentive.imageSrc} alt={incentive.name} />
               </div>
               <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
                 <h2 className="type-title-medium">{incentive.name}</h2>

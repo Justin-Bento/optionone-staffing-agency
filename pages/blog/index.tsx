@@ -1,5 +1,4 @@
 import Head from "next/head";
-import BlogCard from "../../components/BlogCard";
 
 export default function BlogIndex() {
   return (
@@ -14,10 +13,7 @@ export default function BlogIndex() {
           <hr className="mt-4 mb-8" />
         </section>
         <section className="grid grid-cols-1 gap-8 mg:grid-cols-2 lg:grid-cols-3">
-          <BlogCard Image="https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" Path="/blog/1" Headline="Blog Card" Subhead="Any Additional Infromation" Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius minus expedita mollitia enim sed veniam porro, soluta harum animi." />
-          <BlogCard Image="https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" Path="/blog/1" Headline="Blog Card" Subhead="Any Additional Infromation" Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius minus expedita mollitia enim sed veniam porro, soluta harum animi." />
-          <BlogCard Image="https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" Path="/blog/1" Headline="Blog Card" Subhead="Any Additional Infromation" Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius minus expedita mollitia enim sed veniam porro, soluta harum animi." />
-          <BlogCard Image="https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" Path="/blog/1" Headline="Blog Card" Subhead="Any Additional Infromation" Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius minus expedita mollitia enim sed veniam porro, soluta harum animi." />
+        1
         </section>
       </main>
     </>

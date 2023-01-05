@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Stats() {
   const metrics = [
     {
@@ -32,7 +34,9 @@ export default function Stats() {
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="w-full h-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
-              <img
+              <Image
+                width={500}
+                height={500}
                 className="object-cover w-full h-full opacity-25 xl:absolute xl:inset-0"
                 src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                 alt="People working on laptops"
@@ -56,7 +60,7 @@ export default function Stats() {
             </p>
             <p className="mt-5 text-lg text-gray-300">
               At Option One, we understand that data is essential for growth.
-              That's why we provide actionable data that can help you identify
+              That&#39;s why we provide actionable data that can help you identify
               opportunities for growth and development. Our data-driven insights
               will provide you with the information you need to make informed
               decisions and reach your goals. With our data-driven insights, you

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { sanityClient, urlFor } from "../../sanity";
 
 export default function ServicesIndex({ programs }: any) {
@@ -26,7 +25,7 @@ export default function ServicesIndex({ programs }: any) {
             <Link key={data._id} href={`/services/${data._id}`}>
               <article className="">
                 <div className="relative w-full h-64 bg-gray-200 rounded-xl">
-                  <Image src={urlFor(data.mainImage.asset.url).url()} alt="" className="object-cover h-full W-fit grayscale rounded-xl" width={960} height={500} />
+                  <Image src={urlFor(data.mainImage.asset.url).url()} alt="" className="object-cover w-full h-full grayscale rounded-xl" width={960} height={500} />
                   <div className="absolute top-0 w-full h-full bg-blue-500 opacity-70 rounded-xl"></div>
                   <div className="absolute bottom-0 left-0 p-4 md:p-6 lg:p-8">
                     <h2 className="type-title-medium text-blue-50"> {data.title} </h2>

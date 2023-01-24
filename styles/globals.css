@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Sofia Sans';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/SofiaSans-VariableFont_wght.ttf')format('truetype');
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/SofiaSans-Italic-VariableFont_wght.ttf')format('truetype');
+}
+
+
 @tailwind base;
 @tailwind components;
 
@@ -5,49 +23,49 @@
   .wrapper {
     @apply p-4 mx-auto max-w-7xl md:p-6 lg:p-8;
   }
-  .type-display-large {
+  .display-large {
     @apply font-sans text-[3.563rem] capitalize font-semibold leading-10
   }
-  .type-display-medium {
+  .display-medium {
     @apply font-sans text-[2.813rem] capitalize font-semibold leading-10
   }
-  .type-display-small {
+  .display-small {
     @apply font-sans text-[2.25rem] capitalize font-semibold leading-10
   }
-  .type-headline-large {
+  .headline-large {
     @apply font-sans text-[2rem] capitalize font-semibold
   }
-  .type-headline-medium {
+  .headline-medium {
     @apply font-sans text-[1.75rem] capitalize font-semibold
   }
-  .type-headline-small {
+  .headline-small {
     @apply font-sans text-[1.5rem] capitalize font-semibold
   }
-  .type-title-large {
+  .title-large {
     @apply text-zinc-700 font-sans text-[1.375rem] capitalize font-semibold
   }
-  .type-title-medium {
+  .title-medium {
     @apply text-zinc-700 font-sans text-[1rem] capitalize font-semibold
   }
-  .type-title-small {
+  .title-small {
     @apply text-zinc-700 font-sans text-[0.875rem] capitalize font-semibold
   }
-  .type-label-large {
+  .label-large {
     @apply text-zinc-700 font-sans text-[0.875rem] font-medium
   }
-  .type-label-medium {
+  .label-medium {
     @apply text-zinc-700 font-sans text-[0.75rem] font-medium
   }
-  .type-label-small {
+  .label-small {
     @apply text-zinc-700 font-sans text-[0.688rem] font-medium
   }
-  .type-body-large {
+  .body-large {
     @apply text-zinc-700 font-sans text-[16px] font-normal leading-7
   }
-  .type-body-medium {
+  .body-medium {
     @apply text-zinc-700 font-sans text-[14px] font-normal leading-7
   }
-  .type-body-small {
+  .body-small {
     @apply text-zinc-700 font-sans text-[0.75rem] font-normal
   }
 }

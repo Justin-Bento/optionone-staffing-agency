@@ -7,6 +7,8 @@ export default function index() {
     <>
       <Head>
         <title>Option One Staffing Agency</title>
+        <meta name="title" content="Option One Staffing Agency" />
+        <meta name="description" content="Option One is a practical staffing agency that provides qualified staff for companies. We strive for excellence in service and staff integrity." />
       </Head>
       <main className="p-4 my-16 space-y-24 sm:wrapper">
         <section className="">

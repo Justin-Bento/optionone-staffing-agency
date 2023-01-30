@@ -7,11 +7,11 @@ export default function ServicesIndex({ programs }: any) {
   return (
     <main className="my-8 wrapper">
       <section className="">
-        <h1 className="type-headline-medium">
+        <h1 className="headline-medium">
           Unlock The Power Of Your Potential!
           {/* Post Headline Goes Here */}
         </h1>
-        <p className="max-w-prose type-body-large">
+        <p className="max-w-prose body-large">
           Option One is here to help. We specialize in providing a comprehensive
           suite of services that enable you to be the best and get the ground
           running.
@@ -28,8 +28,8 @@ export default function ServicesIndex({ programs }: any) {
                   <Image src={urlFor(data.mainImage.asset.url).url()} alt="" className="object-cover w-full h-full grayscale rounded-xl" width={960} height={500} />
                   <div className="absolute top-0 w-full h-full bg-blue-500 opacity-70 rounded-xl"></div>
                   <div className="absolute bottom-0 left-0 p-4 md:p-6 lg:p-8">
-                    <h2 className="type-title-medium text-blue-50"> {data.title} </h2>
-                    <p className="type-body-medium text-blue-50"> {data.description} </p>
+                    <h2 className="title-medium text-blue-50"> {data.title} </h2>
+                    <p className="body-medium text-blue-50"> {data.description} </p>
                   </div>
                 </div>
               </article>

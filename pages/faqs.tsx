@@ -42,7 +42,7 @@ export async function getServerSideProps() {
 }
 function Call_To_Action_Email() {
   return (
-    <div className="bg-blue-100">
+    <div className="border-t">
       <div className="px-6 py-24 mx-auto max-w-7xl sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
           Don&#39;t See Your Question Here?
@@ -51,7 +51,8 @@ function Call_To_Action_Email() {
         </h2>
         <div className="flex items-center mt-10 gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
-            href="mailto:"
+            href="mailto:optiononestaff@rogers.com?subject=Question%20For%20Option%20One%20Staffing%20Agency"
+            target="_blank"
             className="rounded-md bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
             Send Question

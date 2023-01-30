@@ -7,8 +7,7 @@ import Image from 'next/image';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Eployers', href: '/services' },
-  { name: 'Training', href: '/services' },
+  { name: 'Services', href: '/services' },
   { name: 'Contact', href: '/contact' },
   { name: 'FAQs', href: '/faqs' },
 ]
@@ -45,9 +44,6 @@ export default function Appbar() {
               ))}
             </nav>
             <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
-              <Link href="#" className="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900">
-                Sign in
-              </Link>
               <Link
                 href="/signup"
                 className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-slate-600 whitespace-nowrap hover:bg-slate-700"

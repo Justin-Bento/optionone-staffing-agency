@@ -7,9 +7,9 @@ export default function SignUp() {
       <Head>
         <title>Sign Up - Option One Staffing Agency</title>
       </Head>
-      <main className="s">
-        <div className="relative bg-white">
-          <div className="absolute inset-0">
+      <main className="">
+        <div className="relative z-0 bg-white">
+          <div className="absolute inset-0 z-0">
             <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
           </div>
           <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
